@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+.logo_container img{
+    width: 90px;
+    height: 90px;
+    margin-left: 5px;
+}
+.gctu{
+    font-weight: 800;
+    font-size: 1rem;
+    padding-bottom: 8px;
+}
+
+.mobileNav{
+    width: 100%;
+    background-color: whitesmoke;
+}
+.side_line::after{
+    content: '';
+    width: 2px;
+    height: 70px;
+    align-items: center;
+    display: block;
+    background-color: #0b001f;
+
+}
+.mobileInfo{
+    display: flex;
+    align-items: center;
+    gap: 17px;
+    width: 100%;
+}
+.info_caption{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: small;
+}
+.mobileInfo_Toggle{
+    font-weight: 700;
+    font-size: 23px;
+}
